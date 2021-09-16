@@ -1,0 +1,65 @@
+.profil-header{
+	position: relative;
+	text-align: center;
+	margin: 5px 0px;
+	padding-top: 15px;
+}
+
+.profil-header img{
+	border-radius: 10px;
+	margin-Bottom: 10px;
+}
+
+.profil-nama{
+	position: relative;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	color: #282828;
+}
+
+.profil-body{
+	margin-bottom: 20px;
+}
+
+.profil-body d1{
+	padding: 10px 0;
+	border-bottom: 1px solid #ececec;
+}
+
+.profil-body dl dt{
+	position: relative;
+	font-size: 16px;
+	font-weight: bold;
+	color: #282828;
+	margin-Bottom: 3px;
+}
+
+.profil-body dl dd{
+	position: relative;
+	font-size: 14px;
+	color: #282828;
+}
+
+.profil-body dl dd p{
+	position: relative;
+	line-height: 1.8em;
+}
+
+body{
+	position: relative;
+	
+}
+
+body::before{
+	content: '';
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	background-image: url(background3.jpg);
+	background-size: 100%;
+	opacity: 0.3;
+}
+	
